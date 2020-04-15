@@ -1,0 +1,51 @@
+*{
+	margin:0px;
+}
+body{
+	background-color: 	#FFA500;
+}
+#box{
+	margin-top:100px;
+	padding:10px;
+	background-color: #00008b;
+}
+h1{
+	text-align: center;
+	color: 	#FFD700;
+}
+input{
+	margin-top: 20px;
+	margin-left: 20%;
+}
+
+
+@media(min-width: 1200px){
+	h1{
+		font-size: 12em;
+	}
+	input,button{
+		font-size: 2em;
+	}
+}
+
+@media(min-width:769px) and (max-width: 1199px){
+	h1{
+		font-size: 8em;
+	}
+	input,button{
+		font-size: 2em;
+	}
+}
+
+
+@media(max-width: 768px){
+	h1{
+		font-size: 4em;
+	}
+	input,button{
+		font-size: 1.5em;
+	}
+	input{
+		margin-left: 5%;
+	}
+}
